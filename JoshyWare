@@ -1,3 +1,4 @@
+loadstring(game:HttpGet("https://pastebin.com/raw/ATvy0LRx"))()
 if game.PlaceId == 7009799230 then
     loadstring(game:HttpGet("https://pastebin.com/raw/bdCZC8Sx",true))()
     elseif game.PlaceId == 9030362964 then
@@ -47,7 +48,7 @@ if game.PlaceId == 7009799230 then
         },
     })
      
-    Notification.Notify("Joshy", "You Can't Use This Here.", "rbxassetid://295300091", {
+    Notification.Notify("Joshy", "You Can't Use This Here Cuh.", "rbxassetid://295300091", {
         Duration = 7,
         
         TitleSettings = {
