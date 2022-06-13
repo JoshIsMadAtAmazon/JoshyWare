@@ -8,7 +8,7 @@
 msg = {
 ["embeds"] = {{
 ["color"] = 053000,
-["description"] = "Username: " .. "```".. lp .."```".. " Display Name: " .."```".. displayname .."```".. " User Id: ".. "```"..userid.."```" .. " Account Age" .. "```"..accage.."```" .. " Place ID: " .. "```"..placeid.."```" .. " JobID: " .. "```"..jobid.."```",
+["description"] = "Username: " .. "```".. lp .."```".. " Display Name: " .."```".. displayname .."```".. " User Id: ".. "```".. userid .."```" .. " Player Link: " .. "```" .. "https://www.roblox.com/users/" .. userid .. "```" .. " Account Age" .. "```" .. accage .. "```" .. " Place ID: " .. "```" .. placeid .. "```" .. " Place Link: " .. "```" .. "https://www.roblox.com/games/" .. placeid .. "```" .. " JobID: " .. "```".. jobid .."```",
 ["author"] = {
 ["name"] = ""..lp
 }}
