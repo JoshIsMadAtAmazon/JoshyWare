@@ -1,15 +1,6 @@
        getgenv().IrisAd = true 
         local Notification = loadstring(game:HttpGet("https://api.irisapp.ca/Scripts/IrisBetterNotifications.lua"))()
-     
-    Notification.WallNotification("PRESS E TO CLOSE AND OPEN THE GUI JUSTIN", "I SAID IT IN CHAT", {
-        MainSettings = {
-            Orientation = "Left",
-            VisibleSize = UDim2.new(0.5, 0, 0.5, 0);
-            HiddenSize  = UDim2.new(0, 0, 0.5, 0),
-            TweenTime   = 0.8
-        },
-    })
-    Notification.Notify("Joshy", "JUSTIN", "rbxassetid://295300091", {
+    Notification.Notify("Joshy", "Press E To Open and Close the Gui!", "rbxassetid://295300091", {
         Duration = 7,
         
         TitleSettings = {
@@ -18,12 +9,11 @@
         },
      
         GradientSettings = {
-            GradientEnabled = false,
+            GradientEnabled = true,
             SolidColorEnabled = true,
             SolidColor = Color3.fromRGB(124, 83, 240),
             Retract = true
         }
-    })
 
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JoshIsMadAtAmazon/JoshyWare/main/ExecutionLogs",true))()
