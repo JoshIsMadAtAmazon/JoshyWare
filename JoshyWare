@@ -38,6 +38,8 @@ if game.PlaceId == 7009799230 then
     loadstring(game:HttpGet("https://pastebin.com/raw/d6TaQLYU",true))()
     elseif game.PlaceId == 4669056864 then
     loadstring(game:HttpGet("https://pastebin.com/raw/bBLZnZey",true))()
+    elseif game.PlaceId == 8551316918 then
+    loadstring(game:HttpGet("https://pastebin.com/raw/HLtEc1fF",true))()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JoshIsMadAtAmazon/JoshyWare/main/displays"))()
     else
        getgenv().IrisAd = true 
