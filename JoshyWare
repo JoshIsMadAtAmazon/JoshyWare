@@ -21,7 +21,8 @@ local places = {
 {4669056864, "https://pastebin.com/raw/bBLZnZey"},
 {8551316918, "https://pastebin.com/raw/HLtEc1fF"},
 {11196588443, "https://pastebin.com/raw/gnv2GXw7"},
-{10889408214, "https://pastebin.com/raw/9itSXKvg"}
+{10889408214, "https://pastebin.com/raw/9itSXKvg"},
+{12301433669, "https://pastebin.com/raw/ziNPkuyE"}
 }
 for i,v in pairs(places) do
     if(game.PlaceId == v[1]) then
